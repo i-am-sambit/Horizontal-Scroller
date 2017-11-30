@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD966A701FCEE7F100DBBA7F /* HorizontalScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = BD966A6F1FCEE7F100DBBA7F /* HorizontalScroller.m */; };
+		BD966A761FCEE86000DBBA7F /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD966A751FCEE86000DBBA7F /* QuizViewController.m */; };
+		BD966A791FCEE87400DBBA7F /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD966A781FCEE87400DBBA7F /* RegisterViewController.m */; };
+		BD966A7E1FCEF0B500DBBA7F /* HorizontalScrollerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD966A7D1FCEF0B500DBBA7F /* HorizontalScrollerCell.m */; };
+		BDC4EBA41FCF0B5100D47285 /* QuizModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC4EBA31FCF0B5100D47285 /* QuizModel.m */; };
+		BDC76CBB1FCDAEF700267DB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC76CBA1FCDAEF700267DB8 /* main.m */; };
+		BDC76CBE1FCDAEF700267DB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC76CBD1FCDAEF700267DB8 /* AppDelegate.m */; };
+		BDC76CC11FCDAEF700267DB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC76CC01FCDAEF700267DB8 /* ViewController.m */; };
+		BDC76CC41FCDAEF700267DB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC76CC21FCDAEF700267DB8 /* Main.storyboard */; };
+		BDC76CC71FCDAEF700267DB8 /* iOSTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDC76CC51FCDAEF700267DB8 /* iOSTask.xcdatamodeld */; };
+		BDC76CC91FCDAEF700267DB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC76CC81FCDAEF700267DB8 /* Assets.xcassets */; };
+		BDC76CCC1FCDAEF700267DB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC76CCA1FCDAEF700267DB8 /* LaunchScreen.storyboard */; };
+		BDC76CD71FCDAEF700267DB8 /* iOSTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC76CD61FCDAEF700267DB8 /* iOSTaskTests.m */; };
+		BDC76CE21FCDAEF700267DB8 /* iOSTaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC76CE11FCDAEF700267DB8 /* iOSTaskUITests.m */; };
+		CDAABEC81FD00B930065E72A /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAABEC71FD00B930065E72A /* UserManager.m */; };
+		CDAABECC1FD0198C0065E72A /* QuizContest.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAABECB1FD0198C0065E72A /* QuizContest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDC76CD31FCDAEF700267DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDC76CAE1FCDAEF600267DB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDC76CB51FCDAEF600267DB8;
+			remoteInfo = iOSTask;
+		};
+		BDC76CDE1FCDAEF700267DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDC76CAE1FCDAEF600267DB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDC76CB51FCDAEF600267DB8;
+			remoteInfo = iOSTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD966A6E1FCEE7F100DBBA7F /* HorizontalScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalScroller.h; sourceTree = "<group>"; };
+		BD966A6F1FCEE7F100DBBA7F /* HorizontalScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalScroller.m; sourceTree = "<group>"; };
+		BD966A741FCEE86000DBBA7F /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		BD966A751FCEE86000DBBA7F /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		BD966A771FCEE87400DBBA7F /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		BD966A781FCEE87400DBBA7F /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		BD966A7C1FCEF0B500DBBA7F /* HorizontalScrollerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalScrollerCell.h; sourceTree = "<group>"; };
+		BD966A7D1FCEF0B500DBBA7F /* HorizontalScrollerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalScrollerCell.m; sourceTree = "<group>"; };
+		BDC4EBA21FCF0B5100D47285 /* QuizModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizModel.h; sourceTree = "<group>"; };
+		BDC4EBA31FCF0B5100D47285 /* QuizModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizModel.m; sourceTree = "<group>"; };
+		BDC76CB61FCDAEF600267DB8 /* iOSTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC76CBA1FCDAEF700267DB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDC76CBC1FCDAEF700267DB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDC76CBD1FCDAEF700267DB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDC76CBF1FCDAEF700267DB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BDC76CC01FCDAEF700267DB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BDC76CC31FCDAEF700267DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDC76CC61FCDAEF700267DB8 /* iOSTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSTask.xcdatamodel; sourceTree = "<group>"; };
+		BDC76CC81FCDAEF700267DB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDC76CCB1FCDAEF700267DB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDC76CCD1FCDAEF700267DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDC76CD21FCDAEF700267DB8 /* iOSTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC76CD61FCDAEF700267DB8 /* iOSTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSTaskTests.m; sourceTree = "<group>"; };
+		BDC76CD81FCDAEF700267DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDC76CDD1FCDAEF700267DB8 /* iOSTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC76CE11FCDAEF700267DB8 /* iOSTaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSTaskUITests.m; sourceTree = "<group>"; };
+		BDC76CE31FCDAEF700267DB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDAABEC61FD00B920065E72A /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		CDAABEC71FD00B930065E72A /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
+		CDAABECA1FD0198C0065E72A /* QuizContest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizContest.h; sourceTree = "<group>"; };
+		CDAABECB1FD0198C0065E72A /* QuizContest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizContest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDC76CB31FCDAEF600267DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC76CCF1FCDAEF700267DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC76CDA1FCDAEF700267DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD966A6D1FCEE7D400DBBA7F /* Horizontal Scroller */ = {
+			isa = PBXGroup;
+			children = (
+				BD966A6E1FCEE7F100DBBA7F /* HorizontalScroller.h */,
+				BD966A6F1FCEE7F100DBBA7F /* HorizontalScroller.m */,
+				BD966A7C1FCEF0B500DBBA7F /* HorizontalScrollerCell.h */,
+				BD966A7D1FCEF0B500DBBA7F /* HorizontalScrollerCell.m */,
+			);
+			name = "Horizontal Scroller";
+			sourceTree = "<group>";
+		};
+		BD966A711FCEE80900DBBA7F /* Login Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDC76CBF1FCDAEF700267DB8 /* ViewController.h */,
+				BDC76CC01FCDAEF700267DB8 /* ViewController.m */,
+			);
+			name = "Login Controller";
+			sourceTree = "<group>";
+		};
+		BD966A721FCEE82400DBBA7F /* Register Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD966A771FCEE87400DBBA7F /* RegisterViewController.h */,
+				BD966A781FCEE87400DBBA7F /* RegisterViewController.m */,
+			);
+			name = "Register Controller";
+			sourceTree = "<group>";
+		};
+		BD966A731FCEE83F00DBBA7F /* Quiz Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD966A741FCEE86000DBBA7F /* QuizViewController.h */,
+				BD966A751FCEE86000DBBA7F /* QuizViewController.m */,
+			);
+			name = "Quiz Controller";
+			sourceTree = "<group>";
+		};
+		BDC4EBA11FCF0B3800D47285 /* QuestionModel */ = {
+			isa = PBXGroup;
+			children = (
+				BDC4EBA21FCF0B5100D47285 /* QuizModel.h */,
+				BDC4EBA31FCF0B5100D47285 /* QuizModel.m */,
+			);
+			name = QuestionModel;
+			sourceTree = "<group>";
+		};
+		BDC76CAD1FCDAEF600267DB8 = {
+			isa = PBXGroup;
+			children = (
+				BDC76CB81FCDAEF600267DB8 /* iOSTask */,
+				BDC76CD51FCDAEF700267DB8 /* iOSTaskTests */,
+				BDC76CE01FCDAEF700267DB8 /* iOSTaskUITests */,
+				BDC76CB71FCDAEF600267DB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDC76CB71FCDAEF600267DB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDC76CB61FCDAEF600267DB8 /* iOSTask.app */,
+				BDC76CD21FCDAEF700267DB8 /* iOSTaskTests.xctest */,
+				BDC76CDD1FCDAEF700267DB8 /* iOSTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDC76CB81FCDAEF600267DB8 /* iOSTask */ = {
+			isa = PBXGroup;
+			children = (
+				BDC76CF11FCDB2B900267DB8 /* Model */,
+				BDC76CF01FCDB25700267DB8 /* Views */,
+				BDC76CEF1FCDB1A200267DB8 /* Controllers */,
+				BDC76CBC1FCDAEF700267DB8 /* AppDelegate.h */,
+				BDC76CBD1FCDAEF700267DB8 /* AppDelegate.m */,
+				BDC76CC21FCDAEF700267DB8 /* Main.storyboard */,
+				BDC76CC81FCDAEF700267DB8 /* Assets.xcassets */,
+				BDC76CCA1FCDAEF700267DB8 /* LaunchScreen.storyboard */,
+				BDC76CCD1FCDAEF700267DB8 /* Info.plist */,
+				BDC76CC51FCDAEF700267DB8 /* iOSTask.xcdatamodeld */,
+				BDC76CB91FCDAEF700267DB8 /* Supporting Files */,
+			);
+			path = iOSTask;
+			sourceTree = "<group>";
+		};
+		BDC76CB91FCDAEF700267DB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDC76CBA1FCDAEF700267DB8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDC76CD51FCDAEF700267DB8 /* iOSTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDC76CD61FCDAEF700267DB8 /* iOSTaskTests.m */,
+				BDC76CD81FCDAEF700267DB8 /* Info.plist */,
+			);
+			path = iOSTaskTests;
+			sourceTree = "<group>";
+		};
+		BDC76CE01FCDAEF700267DB8 /* iOSTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDC76CE11FCDAEF700267DB8 /* iOSTaskUITests.m */,
+				BDC76CE31FCDAEF700267DB8 /* Info.plist */,
+			);
+			path = iOSTaskUITests;
+			sourceTree = "<group>";
+		};
+		BDC76CEF1FCDB1A200267DB8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BD966A731FCEE83F00DBBA7F /* Quiz Controller */,
+				BD966A721FCEE82400DBBA7F /* Register Controller */,
+				BD966A711FCEE80900DBBA7F /* Login Controller */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BDC76CF01FCDB25700267DB8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BD966A6D1FCEE7D400DBBA7F /* Horizontal Scroller */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BDC76CF11FCDB2B900267DB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDAABEC91FD019620065E72A /* QuizContestModel */,
+				CDAABEC51FD00B540065E72A /* User Manager */,
+				BDC4EBA11FCF0B3800D47285 /* QuestionModel */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CDAABEC51FD00B540065E72A /* User Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CDAABEC61FD00B920065E72A /* UserManager.h */,
+				CDAABEC71FD00B930065E72A /* UserManager.m */,
+			);
+			name = "User Manager";
+			sourceTree = "<group>";
+		};
+		CDAABEC91FD019620065E72A /* QuizContestModel */ = {
+			isa = PBXGroup;
+			children = (
+				CDAABECA1FD0198C0065E72A /* QuizContest.h */,
+				CDAABECB1FD0198C0065E72A /* QuizContest.m */,
+			);
+			name = QuizContestModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDC76CB51FCDAEF600267DB8 /* iOSTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC76CE61FCDAEF700267DB8 /* Build configuration list for PBXNativeTarget "iOSTask" */;
+			buildPhases = (
+				BDC76CB21FCDAEF600267DB8 /* Sources */,
+				BDC76CB31FCDAEF600267DB8 /* Frameworks */,
+				BDC76CB41FCDAEF600267DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSTask;
+			productName = iOSTask;
+			productReference = BDC76CB61FCDAEF600267DB8 /* iOSTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDC76CD11FCDAEF700267DB8 /* iOSTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC76CE91FCDAEF700267DB8 /* Build configuration list for PBXNativeTarget "iOSTaskTests" */;
+			buildPhases = (
+				BDC76CCE1FCDAEF700267DB8 /* Sources */,
+				BDC76CCF1FCDAEF700267DB8 /* Frameworks */,
+				BDC76CD01FCDAEF700267DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDC76CD41FCDAEF700267DB8 /* PBXTargetDependency */,
+			);
+			name = iOSTaskTests;
+			productName = iOSTaskTests;
+			productReference = BDC76CD21FCDAEF700267DB8 /* iOSTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDC76CDC1FCDAEF700267DB8 /* iOSTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC76CEC1FCDAEF700267DB8 /* Build configuration list for PBXNativeTarget "iOSTaskUITests" */;
+			buildPhases = (
+				BDC76CD91FCDAEF700267DB8 /* Sources */,
+				BDC76CDA1FCDAEF700267DB8 /* Frameworks */,
+				BDC76CDB1FCDAEF700267DB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDC76CDF1FCDAEF700267DB8 /* PBXTargetDependency */,
+			);
+			name = iOSTaskUITests;
+			productName = iOSTaskUITests;
+			productReference = BDC76CDD1FCDAEF700267DB8 /* iOSTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDC76CAE1FCDAEF600267DB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = SambitPrakash;
+				TargetAttributes = {
+					BDC76CB51FCDAEF600267DB8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					BDC76CD11FCDAEF700267DB8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BDC76CB51FCDAEF600267DB8;
+					};
+					BDC76CDC1FCDAEF700267DB8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BDC76CB51FCDAEF600267DB8;
+					};
+				};
+			};
+			buildConfigurationList = BDC76CB11FCDAEF600267DB8 /* Build configuration list for PBXProject "iOSTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDC76CAD1FCDAEF600267DB8;
+			productRefGroup = BDC76CB71FCDAEF600267DB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDC76CB51FCDAEF600267DB8 /* iOSTask */,
+				BDC76CD11FCDAEF700267DB8 /* iOSTaskTests */,
+				BDC76CDC1FCDAEF700267DB8 /* iOSTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDC76CB41FCDAEF600267DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC76CCC1FCDAEF700267DB8 /* LaunchScreen.storyboard in Resources */,
+				BDC76CC91FCDAEF700267DB8 /* Assets.xcassets in Resources */,
+				BDC76CC41FCDAEF700267DB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC76CD01FCDAEF700267DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC76CDB1FCDAEF700267DB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDC76CB21FCDAEF600267DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC4EBA41FCF0B5100D47285 /* QuizModel.m in Sources */,
+				BD966A701FCEE7F100DBBA7F /* HorizontalScroller.m in Sources */,
+				CDAABECC1FD0198C0065E72A /* QuizContest.m in Sources */,
+				CDAABEC81FD00B930065E72A /* UserManager.m in Sources */,
+				BDC76CC11FCDAEF700267DB8 /* ViewController.m in Sources */,
+				BDC76CBE1FCDAEF700267DB8 /* AppDelegate.m in Sources */,
+				BD966A7E1FCEF0B500DBBA7F /* HorizontalScrollerCell.m in Sources */,
+				BDC76CC71FCDAEF700267DB8 /* iOSTask.xcdatamodeld in Sources */,
+				BD966A791FCEE87400DBBA7F /* RegisterViewController.m in Sources */,
+				BDC76CBB1FCDAEF700267DB8 /* main.m in Sources */,
+				BD966A761FCEE86000DBBA7F /* QuizViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC76CCE1FCDAEF700267DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC76CD71FCDAEF700267DB8 /* iOSTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC76CD91FCDAEF700267DB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC76CE21FCDAEF700267DB8 /* iOSTaskUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDC76CD41FCDAEF700267DB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDC76CB51FCDAEF600267DB8 /* iOSTask */;
+			targetProxy = BDC76CD31FCDAEF700267DB8 /* PBXContainerItemProxy */;
+		};
+		BDC76CDF1FCDAEF700267DB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDC76CB51FCDAEF600267DB8 /* iOSTask */;
+			targetProxy = BDC76CDE1FCDAEF700267DB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDC76CC21FCDAEF700267DB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDC76CC31FCDAEF700267DB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDC76CCA1FCDAEF700267DB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDC76CCB1FCDAEF700267DB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDC76CE41FCDAEF700267DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDC76CE51FCDAEF700267DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDC76CE71FCDAEF700267DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SambitPrakash.iOSTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDC76CE81FCDAEF700267DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SambitPrakash.iOSTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDC76CEA1FCDAEF700267DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SambitPrakash.iOSTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTask.app/iOSTask";
+			};
+			name = Debug;
+		};
+		BDC76CEB1FCDAEF700267DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOSTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SambitPrakash.iOSTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTask.app/iOSTask";
+			};
+			name = Release;
+		};
+		BDC76CED1FCDAEF700267DB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOSTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SambitPrakash.iOSTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOSTask;
+			};
+			name = Debug;
+		};
+		BDC76CEE1FCDAEF700267DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOSTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SambitPrakash.iOSTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOSTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDC76CB11FCDAEF600267DB8 /* Build configuration list for PBXProject "iOSTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC76CE41FCDAEF700267DB8 /* Debug */,
+				BDC76CE51FCDAEF700267DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDC76CE61FCDAEF700267DB8 /* Build configuration list for PBXNativeTarget "iOSTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC76CE71FCDAEF700267DB8 /* Debug */,
+				BDC76CE81FCDAEF700267DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDC76CE91FCDAEF700267DB8 /* Build configuration list for PBXNativeTarget "iOSTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC76CEA1FCDAEF700267DB8 /* Debug */,
+				BDC76CEB1FCDAEF700267DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDC76CEC1FCDAEF700267DB8 /* Build configuration list for PBXNativeTarget "iOSTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC76CED1FCDAEF700267DB8 /* Debug */,
+				BDC76CEE1FCDAEF700267DB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDC76CC51FCDAEF700267DB8 /* iOSTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDC76CC61FCDAEF700267DB8 /* iOSTask.xcdatamodel */,
+			);
+			currentVersion = BDC76CC61FCDAEF700267DB8 /* iOSTask.xcdatamodel */;
+			path = iOSTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDC76CAE1FCDAEF600267DB8 /* Project object */;
+}
